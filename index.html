@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PULSO 26 — evento acadêmico demonstrativo de criatividade, tecnologia e cultura digital em 09 de outubro de 2026, às 12h.">
+    <meta name="theme-color" content="#111111">
+    <title>PULSO 26 — Inscrição para o evento</title>
+    <link rel="" href="" type="">
+    <link rel="stylesheet" href="bootstrapCSS/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="inicio">
+    <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="cabecalho sticky-top">
+        <nav class="navbar navbar-expand-lg" aria-label="Navegação principal">
+            <div class="container-fluid pagina">
+                <a class="navbar-brand d-inline-flex align-items-center gap-2" href="#inicio" aria-label="PULSO 26 — Início">
+                    <span>PULSO / 26</span>
+                </a>
+
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu de navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+                        <li class="nav-item"><a class="nav-link" href="#contador">CONTADOR</a></li>
+
+                        <li class="nav-item"><a class="nav-link" href="#inscricao">INSCRIÇÃO</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#local">LOCAL</a></li>
+                    </ul>
+                    <a class="btn botao-menu ms-lg-3" href="#inscricao">Inscrever-se</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="conteudo">
+        <section class="text-white" id="contador" aria-labelledby="titulo_contador">
+            <div class="container-fluid px-0">
+                <div class="row g-0 align-items-stretch">
+                    <div class="col-12 col-lg-4">
+                        <div class="contador-info h-100 d-flex flex-column justify-content-center">
+                            <strong class="contador-titulo" id="titulo_contador">O PULSO VAI SER EM:</strong>
+                            <span class="contador-status visually-hidden" id="status_contador" aria-live="polite"></span>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-8">
+                        <div class="row g-0 h-100 contador-valores" role="timer" aria-label="Contagem regressiva em semanas, dias, horas, minutos e segundos">
+                            <div class="col">
+                                <div class="contador-item h-100">
+                                    <span class="contador-numero" id="semanas">00</span>
+                                    <span class="contador-nome">semanas</span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="contador-item h-100">
+                                    <span class="contador-numero" id="dias">00</span>
+                                    <span class="contador-nome">dias</span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="contador-item h-100">
+                                    <span class="contador-numero" id="horas">00</span>
+                                    <span class="contador-nome">horas</span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="contador-item h-100">
+                                    <span class="contador-numero" id="minutos">00</span>
+                                    <span class="contador-nome">minutos</span>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="contador-item h-100">
+                                    <span class="contador-numero" id="segundos">00</span>
+                                    <span class="contador-nome">segundos</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-white" id="horbital" aria-labelledby="titulo_evento">
+            <div class="grade-fundo" aria-hidden="true"></div>
+            <div class="container-fluid px-0 position-relative">
+                <div class="row g-0 align-items-stretch horbital-linha">
+                    <div class="col-lg-7 horbital-visual d-flex align-items-center justify-content-center">
+                        <div class="horbital-conteudo d-flex align-items-center justify-content-center w-100">
+                            <div id="pulsoCarousel" class="carousel slide carousel-fade w-100" data-bs-ride="carousel" aria-label="Galeria de imagens do PULSO 26">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#pulsoCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Imagem 1"></button>
+                                    <button type="button" data-bs-target="#pulsoCarousel" data-bs-slide-to="1" aria-label="Imagem 2"></button>
+                                                                        <button type="button" data-bs-target="#pulsoCarousel" data-bs-slide-to="2" aria-label="Imagem 2"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="5000">
+                                        <img src="assets/carousel-1.png" class="d-block w-100" alt="Imagem do carrosel  evento PULSO 26">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="5000">
+                                        <img src="assets/carousel-2.jpg" class="d-block w-100" alt="Segunda imagem do carrosel  do evento PULSO 26">
+                                    </div>
+                                            <div class="carousel-item" data-bs-interval="5000">
+                                        <img src="assets/carousel-3.jpg" class="d-block w-100" alt="Terceira imagem do carrosel do evento PULSO 26">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#pulsoCarousel" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Anterior</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#pulsoCarousel" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Próxima</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 sobre-evento d-flex align-items-center">
+                        <div class="descricao-evento">
+                            <h1 class="titulo-evento" id="titulo_evento">Criatividade em movimento.</h1>
+                            <p class="texto-evento">PULSO 26 é o maior evento de demonstração de Inteligencia Artificial em São Paulo. Conheça 
+                                tudo sobre as novidades e avanços da área, alem disso
+                                 conheça e experimente os melhores modelos atuais.
+                            </p>
+                            <p class="data-evento mb-0">09 de outubro de 2026 · 12h00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="inscricao" aria-labelledby="titulo_formulario">
+            <div class="container-fluid px-0">
+                <div class="row g-0">
+                    <div class="col-lg-7 area-formulario">
+                        <div class="formulario-conteudo">
+                            <h2 class="titulo-formulario" id="titulo_formulario">Inscreva-se e participe do Pulso 2026</h2>
+                            <p class="texto-formulario">Preencha os dados abaixo para se inscrever no evento. Você sera notificado por email se sua inscriçao foi aprovada e entao seu cracha.</p>
+
+                            <form class="needs-validation mt-4 mt-md-5" id="formulario" novalidate>
+                                <div class="row g-4">
+                                    <div class="col-md-6">
+                                        <label class="form-label" for="nome">Nome</label>
+                                        <input class="form-control" type="text" id="nome" name="nome" autocomplete="name" minlength="2" required placeholder="Seu nome completo">
+                                        <div class="invalid-feedback">Informe seu nome.</div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label class="form-label" for="email">E-mail</label>
+                                        <input class="form-control" type="email" id="email" name="email" autocomplete="email" required placeholder="email@exemplo.com">
+                                        <div class="invalid-feedback">Informe um e-mail válido.</div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label class="form-label" for="telefone">Telefone <span class="obrigatorio"></span></label>
+                                        <input class="form-control" type="tel" id="telefone" name="telefone" autocomplete="tel" inputmode="tel" placeholder="(11) 40002-8922">
+                                    </div>
+
+                                    <div class="col-12 d-flex flex-column flex-sm-row align-items-sm-center gap-3 pt-1">
+                                        <button class="btn botao-evento" type="submit">CONFIRMAR INSCRIÇÃO</button>
+                                    </div>
+                                </div>
+
+
+                            </form>
+                                 <div class="alert alert-success d-none mt-4 mb-0"id="mensagem_formulario" role="status" aria-live="polite" tabindex="-1">
+                                    <p class="avisoformulariop">Obrigado por se inscrever no Pulso 2026. Sua inscrição foi enviada e sera analisada, em breve será notificado por email.</p>
+
+                                </div>
+                        </div>
+                    </div>
+
+                    <aside class="col-lg-5 d-flex flex-column justify-content-between" id="local" aria-labelledby="titulo_local">
+                        <div class="local-conteudo">
+                            <h2 class="titulo-local" id="titulo_local">Cubo Itaú São Paulo</h2>
+                            <p class="cidade-local">Alameda Vicente Pinzon, 54 — Vila Olímpia, São Paulo — SP</p>
+
+                            <dl class="dados-local mb-0">
+                                <div>
+                                    <dt>Data</dt>
+                                    <dd>09 de outubro de 2026</dd>
+                                </div>
+                                <div>
+                                    <dt>Horário</dt>
+                                    <dd>12h00</dd>
+                                </div>
+                                <div>
+                                    <dt>Formato</dt>
+                                    <dd>Presencial</dd>
+                                </div>
+                            </dl>
+                        </div>
+
+
+                    </aside>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="bootstrapJS/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
